@@ -38,8 +38,8 @@ const Footer = () => {
 
         <div className="mt-8 md:mt-12 pt-6 md:pt-8 border-t border-white/30 text-center text-sm">
           <p>
-            Bulk Delete Google Photos is not affiliated with Google or Google
-            Photos.
+            Google Photos is a registered trademark of Google and this site is
+            not affiliated with Google in any form.
           </p>
         </div>
       </div>
