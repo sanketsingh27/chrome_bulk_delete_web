@@ -11,7 +11,7 @@ const FAQ = () => {
     {
       question: "Is this extension free to use?",
       answer:
-        "Yes,Bulk Delete Google Photos is completely free to download and use.",
+        "Yes,Bulk Delete All Google Photos is completely free to download and use.",
     },
     {
       question: "Does it work with other photo services besides Google Photos?",

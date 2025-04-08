@@ -9,8 +9,8 @@ const CTA = () => {
           Ready to clean up your photos?
         </h2>
         <p className="text-lg md:text-xl mb-6 md:mb-8 max-w-2xl mx-auto">
-          Install Bulk Delete Google Photos today and start managing your Google
-          Photos library more efficiently.
+          Install Bulk Delete All Google Photos extension today and start
+          managing your Google Photos library more efficiently.
         </p>
 
         <Button className="neo-button text-lg md:text-xl py-3 md:py-4 px-6 md:px-8">

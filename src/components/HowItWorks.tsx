@@ -6,7 +6,7 @@ const HowItWorks = () => {
       number: "01",
       title: "Install the Extension",
       description:
-        "AddBulk Delete Google Photosto Chrome from the Chrome Web Store",
+        "Add Bulk Delete All Google Photos Chrome extension from the Chrome Web Store",
     },
     {
       number: "02",

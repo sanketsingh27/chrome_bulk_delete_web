@@ -9,7 +9,9 @@ const Footer = () => {
           <div className="mb-8 md:mb-0 text-center md:text-left">
             <div className="flex items-center gap-2 mb-4 justify-center md:justify-start">
               <div className="w-8 h-8 bg-neo-blue border-2 border-white"></div>
-              <h2 className="text-xl font-bold">Bulk Delete Google Photos</h2>
+              <h2 className="text-xl font-bold">
+                Bulk Delete All Google Photos
+              </h2>
             </div>
             <p>© 2025 Ship it Digital. All rights reserved.</p>
           </div>
