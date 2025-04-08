@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React from "react";
 import {
   Accordion,
   AccordionContent,
@@ -11,32 +10,41 @@ const FAQ = () => {
   const faqs = [
     {
       question: "Is this extension free to use?",
-      answer: "Yes, Pixel Cleanup Crew is completely free to download and use."
+      answer:
+        "Yes,Bulk Delete Google Photos is completely free to download and use.",
     },
     {
       question: "Does it work with other photo services besides Google Photos?",
-      answer: "Currently, our extension only works with Google Photos, but we're considering expanding to other services in the future."
+      answer:
+        "Currently, our extension only works with Google Photos, but we're considering expanding to other services in the future.",
     },
     {
       question: "Will this extension access my Google account?",
-      answer: "The extension only operates within your browser and doesn't access your Google account credentials. It simply provides an interface to interact with Google Photos more efficiently."
+      answer:
+        "The extension only operates within your browser and doesn't access your Google account credentials. It simply provides an interface to interact with Google Photos more efficiently.",
     },
     {
       question: "Can I recover photos after deletion?",
-      answer: "Deleted photos will be moved to the trash in Google Photos, where they'll remain for 60 days before being permanently deleted. You can recover them from the trash during this period."
-    }
+      answer:
+        "Deleted photos will be moved to the trash in Google Photos, where they'll remain for 60 days before being permanently deleted. You can recover them from the trash during this period.",
+    },
   ];
 
   return (
-    <section id="faq" className="py-12 md:py-20 px-4 bg-neo-gray border-b-4 border-black">
+    <section
+      id="faq"
+      className="py-12 md:py-20 px-4 bg-neo-gray border-b-4 border-black"
+    >
       <div className="neo-container">
-        <h2 className="text-3xl md:text-4xl font-black mb-8 md:mb-16 text-center">Frequently Asked Questions</h2>
-        
+        <h2 className="text-3xl md:text-4xl font-black mb-8 md:mb-16 text-center">
+          Frequently Asked Questions
+        </h2>
+
         <div className="max-w-3xl mx-auto">
           <Accordion type="single" collapsible className="space-y-4">
             {faqs.map((faq, index) => (
-              <AccordionItem 
-                key={index} 
+              <AccordionItem
+                key={index}
                 value={`item-${index}`}
                 className="border-4 border-black shadow-neo bg-white"
               >
