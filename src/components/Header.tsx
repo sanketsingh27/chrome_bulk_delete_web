@@ -40,17 +40,20 @@ const Header = () => {
             <nav>
               <ul className="flex gap-8">
                 <li>
-                  <a href="#features" className="font-bold hover:underline">
+                  <a href="/#features" className="font-bold hover:underline">
                     Features
                   </a>
                 </li>
                 <li>
-                  <a href="#how-it-works" className="font-bold hover:underline">
+                  <a
+                    href="/#how-it-works"
+                    className="font-bold hover:underline"
+                  >
                     How It Works
                   </a>
                 </li>
                 <li>
-                  <a href="#faq" className="font-bold hover:underline">
+                  <a href="/#faq" className="font-bold hover:underline">
                     FAQ
                   </a>
                 </li>

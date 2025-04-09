@@ -52,9 +52,6 @@ const PrivacyPolicy = () => {
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Your Google Photos or any image content</li>
                   <li>Your Google account credentials</li>
-                  <li>
-                    Your browsing history outside of the Google Photos site
-                  </li>
                   <li>Any personally identifiable information</li>
                 </ul>
               </section>
@@ -109,7 +106,8 @@ const PrivacyPolicy = () => {
                   <li>
                     <strong>activeTab</strong> - Used to run scripts only on the
                     currently active Google Photos tab when the user clicks the
-                    extension, ensuring minimal access and better privacy.
+                    extension to select multiple photos at once—ensuring minimal
+                    access and better privacy.
                   </li>
                 </ul>
               </section>
