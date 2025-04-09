@@ -45,20 +45,9 @@ const PrivacyPolicy = () => {
                 <p className="mb-4">
                   Our extension is designed to operate locally in your browser
                   and does not collect or store your personal data on our
-                  servers. However, to provide our service, we process the
-                  following data:
+                  servers.
                 </p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li>
-                    <strong>Browser Information:</strong> Basic information
-                    about your browser version to ensure compatibility.
-                  </li>
-                  <li>
-                    <strong>Extension Usage Data:</strong> Anonymous analytics
-                    about how you use the extension, such as feature usage and
-                    performance metrics.
-                  </li>
-                </ul>
+
                 <p className="mt-4">We do NOT collect or access:</p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Your Google Photos or any image content</li>
@@ -72,23 +61,7 @@ const PrivacyPolicy = () => {
 
               <section>
                 <h2 className="text-xl md:text-2xl font-bold mb-4">
-                  3. How We Use Your Data
-                </h2>
-                <p className="mb-4">
-                  We use the limited data we collect for the following purposes:
-                </p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li>To maintain, improve, and enhance our extension</li>
-                  <li>To diagnose and fix technical issues</li>
-                  <li>
-                    To analyze usage patterns and optimize user experience
-                  </li>
-                </ul>
-              </section>
-
-              <section>
-                <h2 className="text-xl md:text-2xl font-bold mb-4">
-                  4. Third-Party Services
+                  3. Third-Party Services
                 </h2>
                 <p className="mb-4">
                   Our extension operates within Google Chrome and interacts with
@@ -102,10 +75,6 @@ const PrivacyPolicy = () => {
                     Google's own privacy policy applies to your use of Google
                     Photos
                   </li>
-                  <li>
-                    We may use third-party analytics tools to improve our
-                    service
-                  </li>
                 </ul>
                 <p className="mt-4">
                   We recommend reviewing Google's privacy policy to understand
@@ -115,54 +84,7 @@ const PrivacyPolicy = () => {
 
               <section>
                 <h2 className="text-xl md:text-2xl font-bold mb-4">
-                  5. Data Security
-                </h2>
-                <p className="mb-4">
-                  We implement appropriate security measures to protect your
-                  data. However, no method of transmission over the Internet or
-                  electronic storage is 100% secure. While we strive to use
-                  commercially acceptable means to protect your personal
-                  information, we cannot guarantee its absolute security.
-                </p>
-              </section>
-
-              <section>
-                <h2 className="text-xl md:text-2xl font-bold mb-4">
-                  6. Your Data Rights
-                </h2>
-                <p className="mb-4">
-                  Depending on your location, you may have the following rights
-                  regarding your data:
-                </p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li>The right to access information we hold about you</li>
-                  <li>The right to request correction of your personal data</li>
-                  <li>The right to request deletion of your data</li>
-                  <li>The right to restrict or object to processing</li>
-                  <li>The right to data portability</li>
-                </ul>
-                <p className="mt-4">
-                  To exercise these rights, please contact us using the
-                  information provided in the "Contact Us" section.
-                </p>
-              </section>
-
-              <section>
-                <h2 className="text-xl md:text-2xl font-bold mb-4">
-                  7. Children's Privacy
-                </h2>
-                <p>
-                  Our extension is not intended for children under 13 years of
-                  age. We do not knowingly collect personal information from
-                  children under 13. If you are a parent or guardian and believe
-                  your child has provided us with personal information, please
-                  contact us immediately.
-                </p>
-              </section>
-
-              <section>
-                <h2 className="text-xl md:text-2xl font-bold mb-4">
-                  8. Changes to This Privacy Policy
+                  4. Changes to This Privacy Policy
                 </h2>
                 <p>
                   We may update our privacy policy from time to time. We will
@@ -175,7 +97,26 @@ const PrivacyPolicy = () => {
 
               <section>
                 <h2 className="text-xl md:text-2xl font-bold mb-4">
-                  9. Contact Us
+                  5. Chrome Extension Permissions Justification
+                </h2>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li>
+                    <strong>host_permissions</strong> - Required to access and
+                    interact with photo elements on Google Photos
+                    (https://photos.google.com/*) for selecting and deleting
+                    them.
+                  </li>
+                  <li>
+                    <strong>activeTab</strong> - Used to run scripts only on the
+                    currently active Google Photos tab when the user clicks the
+                    extension, ensuring minimal access and better privacy.
+                  </li>
+                </ul>
+              </section>
+
+              <section>
+                <h2 className="text-xl md:text-2xl font-bold mb-4">
+                  6. Contact Us
                 </h2>
                 <p>
                   If you have any questions about this privacy policy or our
@@ -183,7 +124,7 @@ const PrivacyPolicy = () => {
                 </p>
                 <div className="mt-4 p-4 bg-neo-gray border-2 border-black">
                   <p>
-                    <strong>Email:</strong> support@shipit.digital
+                    <strong>Email:</strong> shipit.digital@gmail.com
                   </p>
                   <p className="mt-2">
                     <strong>Address:</strong> Ship it Digital, 7420 Guadalupe St
