@@ -23,8 +23,17 @@ const Hero = () => {
               Select and delete multiple photos at once with our easy-to-use
               Chrome extension. Save time and keep your photo library tidy.
             </p>
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <Button className="neo-button">Install Extension</Button>
+              <Button className="neo-button">
+                <a
+                  href="https://chromewebstore.google.com/detail/delete-all-google-photos/ehcjfpcleamcfjmchooadgcddfafhbdj"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Install Extension
+                </a>
+              </Button>
               <Button
                 variant="outline"
                 className="border-4 border-black bg-white shadow-neo font-bold py-3 px-6 hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all duration-200"

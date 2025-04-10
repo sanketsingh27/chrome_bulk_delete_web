@@ -14,7 +14,13 @@ const CTA = () => {
         </p>
 
         <Button className="neo-button text-lg md:text-xl py-3 md:py-4 px-6 md:px-8">
-          Install Extension Now
+              <a
+                  href="https://chromewebstore.google.com/detail/delete-all-google-photos/ehcjfpcleamcfjmchooadgcddfafhbdj"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Install Extension
+              </a>    
         </Button>
       </div>
     </section>

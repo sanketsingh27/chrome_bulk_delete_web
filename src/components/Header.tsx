@@ -25,7 +25,13 @@ const Header = () => {
         {isMobile ? (
           <div className="flex items-center">
             <Button className="neo-button" size="sm">
-              Install Now
+              <a
+                href="https://chromewebstore.google.com/detail/delete-all-google-photos/ehcjfpcleamcfjmchooadgcddfafhbdj"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Install Now
+              </a>
             </Button>
             <button
               onClick={toggleMenu}
