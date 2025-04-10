@@ -73,7 +73,15 @@ const Header = () => {
                 </li>
               </ul>
             </nav>
-            <Button className="neo-button">Install Now</Button>
+            <Button className="neo-button">
+              <a
+                href="https://chromewebstore.google.com/detail/delete-all-google-photos/ehcjfpcleamcfjmchooadgcddfafhbdj"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Install Now
+              </a>
+            </Button>
           </>
         )}
       </div>
